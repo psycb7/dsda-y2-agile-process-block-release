@@ -4,6 +4,10 @@
 
 Repo with support files for the block release on using the agile process for group software development.
 
+## Documentation
+
+User stories are contained [in the documentation folder](./doc/stories.md). Much more information about user stories can be found online, e.g. [Atlassian](https://www.atlassian.com/agile/project-management/user-stories) have a good write up of Agile topics, including user stories.
+
 ## Development
 
 ### Git
@@ -15,7 +19,3 @@ You can enable the filter by running the following command in your repository:
 ```shell
 git config filter.strip-notebook-output.clean 'jupyter nbconvert --ClearOutputPreprocessor.enabled=True --to=notebook --stdin --stdout --log-level=ERROR'
 ```
-
-## Documentation
-
-User stories are contained [in the documentation folder](./doc/stories.md). Much more information about user stories can be found online, e.g. in [Atlassian](https://www.atlassian.com/agile/project-management/user-stories) have a good write up of Agile topics, including user stories.
